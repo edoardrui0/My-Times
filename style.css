@@ -9,6 +9,9 @@ header {
     align-items: center;
     width: 100%;
     height: 80px;
+    position: fixed; 
+    z-index: 1;
+    background-color: white;
 }
 
 .logo {
@@ -33,24 +36,83 @@ span a {
     color: black;
 }
 
-/* Columns */
+/* Style for Content */
+
+.content {
+    display: flex;
+    margin: 0 auto 78px auto;
+    padding-top: 120px;
+    width: 1232px;
+    border: 1px solid black;
+}
+
+/* Styles for Columns */
+
+.column {
+    display: flex;
+    flex-direction: column;
+    margin-right: 30px;
+}
 
 .column.large {
     width: 630px;
+    display: flex;
+    border: 1px solid black;
 }
 
 .column.medium {
     width: 300px;
+    display: flex;
+    border: 1px solid black;
 }
 
 .column.small {
     width: 240px;
+    display: flex;
+    border: 1px solid black;
 }
 
+/* styles */
 
+.column-1a {
+    border: 1px solid black;
+}
 
+.column-1a .mother-3 {
+    border: 1px solid black;
+}
 
+.column-1b {
+    border: 2px solid black;
+}
 
+.column-1b .earthspins {
+    border: 1.5px solid black;
+}
+
+.column-1c {
+    border: 2px solid black;
+}
+
+.column-1c .cameras-1 {
+    border: 1.5px solid black;
+}
+
+.fbi {
+    border: 2px solid black;
+}
+
+.cats-control {
+    border: 1px solid black;
+}
+
+.brooklyn {
+    border: 1px solid black;
+}
+
+.news-bites {
+    border: 1px solid black;
+}
 
 
 
