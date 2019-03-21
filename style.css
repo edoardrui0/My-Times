@@ -12,6 +12,7 @@ header {
     position: fixed; 
     z-index: 1;
     background-color: white;
+    margin-top: 0;
 }
 
 .logo {
@@ -80,6 +81,16 @@ span a {
 
 .column-1a .mother-3 {
     border: 1px solid black;
+    background-image: url(https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-story-main.png);
+    height: 300px;
+    display: flex;
+}
+
+.mother-3 span {
+  font-family: Georgia;
+  font-weight: bold;
+  font-size: 40px;
+  color: white;
 }
 
 .column-1b {
@@ -88,6 +99,17 @@ span a {
 
 .column-1b .earthspins {
     border: 1.5px solid black;
+    background-image: url(https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-story-2.png);
+    height: 300px;
+    display: flex;
+}
+
+.earthspins span {
+  font-family: Georgia;
+  font-weight: bold;
+  font-size: 30px;
+  color: white;  
+  text-align: center;
 }
 
 .column-1c {
@@ -96,6 +118,17 @@ span a {
 
 .column-1c .cameras-1 {
     border: 1.5px solid black;
+    background-image: url(https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-story-3.png);
+    height: 300px;
+    display: flex;
+}
+
+.cameras-1 span {
+    font-family: Georgia;
+    font-weight: bold;
+    font-size: 30px;
+    color: white;  
+    text-align: center;
 }
 
 .fbi {
@@ -104,6 +137,17 @@ span a {
 
 .cats-control {
     border: 1px solid black;
+    background-image: url(https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-story-1.png);
+    height: 300px;
+    display: flex;
+}
+
+.cats-control span {
+    font-family: Georgia;
+    font-weight: bold;
+    font-size: 30px;
+    color: white;  
+    text-align: center;
 }
 
 .brooklyn {
